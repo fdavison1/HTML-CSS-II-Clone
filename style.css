@@ -1,0 +1,204 @@
+body {
+    background: rgb(250, 228, 234);
+    height: 300vh;
+    margin: 35px;
+}
+
+main {
+    height: 350vh;
+    background: white;
+    margin: 15px;
+    /* display: flex; */
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    background: white;
+    margin: 15px;
+    top: 10px;
+    width: 100vw;
+}
+
+img {
+    border-radius: 50%;
+    margin: 5px;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+nav h1 {
+    font-size: 24px;
+    /* width: 50vw; */
+}
+
+nav p {
+    display: flex;
+} 
+
+#owl {
+    float: left;
+}
+
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: rgb(250, 228, 234);
+    height: 500px;
+    margin: 35px;
+    /* width: 80vw; */
+    box-sizing: border-box;
+    padding: 50px;
+    /* top: 35px; */
+}
+
+#bike {
+    float: right;
+    height: auto;
+    max-height: 100%;
+    right: 10px;
+}
+
+/* .box1 p {
+    display: block;
+} */
+
+.cheat {
+    height: 15px;
+    background: white;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Arial;
+    width: 30vw;
+    /* margin: 20px; */
+    /* padding: 50px 50px; */
+    /* box-sizing: border-box; */
+}
+
+p {
+    /* position: relative; */
+    /* margin: 30px; */
+    /* float: right; */
+}
+
+ul {
+    display: flex;
+    position: relative;
+    /* left: 15vh; */
+    /* justify-content: space-around; */
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    font-family: Arial;
+    font-size: 10px;
+    /* text-align: center; */
+    font-weight: bold;
+}
+
+.company {
+    margin-right: 50px;
+}
+
+.audiobooks {
+    display: flex;
+    align-items: center;
+    /* justify-content: : center; */
+    background: rgb(235,60,111);
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+    border-radius: 50%; 
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px;
+    /* float: left; */
+    /* left: 10px; */
+}
+
+.audiobooks:hover {
+    background: white;
+    color: rgb(235,60,111);
+    border: 3px solid rgb(235,60,111);
+}
+
+#book {
+    border-radius: 0;
+    /* right: 10px; */
+}
+
+.box2 {
+    display: inline-block;
+    background: rgb(56,130,139);
+    height: 300px;
+    width: 200px;
+    margin: 35px 35px;
+    font-size: 25px;
+    font-family: Arial;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#a {
+    background: rgb(199,73,112);
+}
+
+#b {
+    background: rgb(62,137,92);
+}
+
+#c {
+    background: rgb(111,52,155);
+}
+
+#d {
+    background: rgb(204,54,63);
+}
+
+#e {
+    background: rgb(8,47,195);
+}
+
+#owl2 {
+    display: flex;
+    /* position: relative; */
+    height: 60px;
+}
+
+footer {
+    color: white;
+    /* display: flex; */
+    position: relative;
+    /* padding: 45px; */
+    box-sizing: border-box;
+}
+
+#foot {
+    background: rgb(8, 47, 195);
+    margin: 15px;
+    height: 100px;
+}
+
+footer li {
+    font-size: 12px;
+    margin: 20px;
+    /* display: inline-block; */
+}
+
+footer p {
+    float: right;
+    /* right: 10px; */
+    /* margin: 10px;  */
+}
