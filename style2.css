@@ -1,5 +1,5 @@
 body {
-    background: pink;
+    background: rgb(250, 228, 234);
 }
 
 main {
@@ -36,7 +36,7 @@ nav {
     font-size: 24px;
 }
 .logo {
-    background: pink;
+    background: rgb(250, 228, 234);
     height: 65px;
     width: 65px;
     border-radius: 50%;
@@ -46,6 +46,7 @@ nav {
 
 #owl1 {
     height: 50px;
+    border-radius: 50%
 }
 
 .links {
@@ -66,8 +67,8 @@ ul {
     /* display: inline-box; */
     height: 35vh;
     /* border: solid black; */
-    margin: 0 0 35px 35px;
-    background: pink;
+    margin: 0 35px 35px 35px;
+    background: rgb(250, 228, 234);
     /* font-family: Arial; */
     padding: 50px;
     box-sizing: border-box;
@@ -106,10 +107,14 @@ h2 {
     display: inline-block;
     flex-direction: row;
     justify-content: center;
-    border: solid black;
+    /* border: solid black; */
     width: 28vw;
     height: 50vh;
     margin: 0 0 35px 35px;
+    padding: 15px;
+    background: rgb(56,130,139);
+    color: white;
+    box-sizing: border-box;
 }
 
 #owl3 {
@@ -117,10 +122,30 @@ h2 {
     margin: 0 0 0 0;
 }
 
+#a {
+    background: rgb(199,73,112);
+}
+
+#b {
+    background: rgb(62,137,92);
+}
+
+#c {
+    background: rgb(111,52,155);
+}
+
+#d {
+    background: rgb(204,54,63);
+}
+
+#e {
+    background: rgb(8,47,195);
+}
+
 footer {
     display: flex;
     align-items: center;
-    background: blue;
+    background: rgb(8, 47, 195);
     height: 20vh;
     margin: 0 12px 0 12px;
     color: white;
@@ -134,4 +159,24 @@ li {
     border-radius: 50%;
     height: 100px;
     margin: 25px;
+}
+
+.circles {
+    position: fixed;
+    right: 5px;
+    bottom: 15px;
+    /* border: solid black; */
+}
+
+.circle {
+    border: 1px solid black;
+    background: white;
+    /* background: white; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
