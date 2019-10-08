@@ -185,13 +185,11 @@ li:hover {
     position: fixed;
     right: 5px;
     bottom: 15px;
-    /* border: solid black; */
 }
 
 .circle {
     border: 1px solid black;
     background: white;
-    /* background: white; */
     height: 40px;
     width: 40px;
     border-radius: 50%;
